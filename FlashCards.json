@@ -1,0 +1,209 @@
+{
+  "question_sets": [
+    {
+      "name": "Basic Math PLACEHOLDER",
+      "type": "Multiple choice question",
+      "total_questions": 3,
+      "success_rate": 0.85,
+      "questions": [
+        {
+          "question": "What is 5 + 3?",
+          "answer": [
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11"
+          ],
+          "correct_answer": "8",
+          "probability": 0.5
+        },
+        {
+          "question": "What is 12 / 4?",
+          "answer": [
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "correct_answer": "3",
+          "probability": 0.7
+        },
+        {
+          "question": "What is 9 * 2?",
+          "answer": [
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21"
+          ],
+          "correct_answer": "18",
+          "probability": 0.4
+        }
+      ]
+    },
+    {
+      "name": "Identify the Animal PLACEHOLDER",
+      "type": "Image with written input",
+      "total_questions": 2,
+      "success_rate": 0.72,
+      "questions": [
+        {
+          "question": "Identify the animal in the image",
+          "image": "lion.jpg",
+          "answer": "Lion",
+          "probability": 0.6
+        },
+        {
+          "question": "Identify the animal in the image",
+          "image": "elephant.jpg",
+          "answer": "Elephant",
+          "probability": 0.5
+        }
+      ]
+    },
+    {
+      "name": "Alfabet Fonetic",
+      "type": "Question with written input",
+      "total_questions": 26,
+      "success_rate": 0.9,
+      "questions": [
+        {
+          "question": "A",
+          "answer": "Alpha",
+          "probability": 0.8
+        },
+        {
+          "question": "B",
+          "answer": "Bravo",
+          "probability": 0.8
+        },
+        {
+          "question": "C",
+          "answer": "Charlie",
+          "probability": 0.8
+        },
+        {
+          "question": "D",
+          "answer": "Delta",
+          "probability": 0.8
+        },
+        {
+          "question": "E",
+          "answer": "Echo",
+          "probability": 0.8
+        },
+        {
+          "question": "F",
+          "answer": "Foxtrot",
+          "probability": 0.8
+        },
+        {
+          "question": "G",
+          "answer": "Golf",
+          "probability": 0.8
+        },
+        {
+          "question": "H",
+          "answer": "Hotel",
+          "probability": 0.8
+        },
+        {
+          "question": "I",
+          "answer": "India",
+          "probability": 0.8
+        },
+        {
+          "question": "J",
+          "answer": "Juliet",
+          "probability": 0.8
+        },
+        {
+          "question": "K",
+          "answer": "Kilo",
+          "probability": 0.8
+        },
+        {
+          "question": "L",
+          "answer": "Lima",
+          "probability": 0.8
+        },
+        {
+          "question": "M",
+          "answer": "Mike",
+          "probability": 0.8
+        },
+        {
+          "question": "N",
+          "answer": "November",
+          "probability": 0.8
+        },
+        {
+          "question": "O",
+          "answer": "Oscar",
+          "probability": 0.8
+        },
+        {
+          "question": "P",
+          "answer": "Papa",
+          "probability": 0.8
+        },
+        {
+          "question": "Q",
+          "answer": "Quebec",
+          "probability": 0.8
+        },
+        {
+          "question": "R",
+          "answer": "Romeo",
+          "probability": 0.8
+        },
+        {
+          "question": "S",
+          "answer": "Sierra",
+          "probability": 0.8
+        },
+        {
+          "question": "T",
+          "answer": "Tango",
+          "probability": 0.8
+        },
+        {
+          "question": "U",
+          "answer": "Uniform",
+          "probability": 0.8
+        },
+        {
+          "question": "V",
+          "answer": "Victor",
+          "probability": 0.8
+        },
+        {
+          "question": "W",
+          "answer": "Whiskey",
+          "probability": 0.8
+        },
+        {
+          "question": "X",
+          "answer": "X-ray",
+          "probability": 0.8
+        },
+        {
+          "question": "Y",
+          "answer": "Yankee",
+          "probability": 0.8
+        },
+        {
+          "question": "Z",
+          "answer": "Zulu",
+          "probability": 0.8
+        }
+      ]
+    }
+  ]
+}

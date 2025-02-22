@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlashCards</title>
+    <link rel="stylesheet" href="FlashCards.css">
+    <script src="FlashCards.js"></script>
+</head>
+<body>
+    <!-- Taskbar -->
+    <div class="taskbar">
+        <div class="title">FlashCards</div>
+        <div class="status">
+            <span id="timer">⏳ Timer: 00:00</span>
+            <span id="counter">✅ Score: 0</span>
+        </div>
+        <div class="time" id="datetime"></div>
+    </div>
+
+    <!-- Page Content (Everything Below the Taskbar) -->
+    <div class="page-content">
+        <!-- Centered Menu Box -->
+        <div class="menu-box" id="menu">
+            <p id="menu-text">Please choose a Question Set:</p>
+            <button id="start-button">Start</button>
+        </div>
+    </div>
+</body>
+</html>
