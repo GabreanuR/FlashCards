@@ -91,68 +91,68 @@
         },
         {
           "question": "Identifica Componenta X",
-          "image": "Images/Cunoasterea Aeronavei/IarProfundor.png",
-          "answer": "Profundor",
+          "image": "Images/Cunoasterea Aeronavei/IarAripaDreapta.png",
+          "answer": "Aripa Dreapta",
           "probability": 0.6
         },
         {
           "question": "Identifica Componenta X",
-          "image": "Images/Cunoasterea Aeronavei/IarProfundor.png",
-          "answer": "Profundor",
+          "image": "Images/Cunoasterea Aeronavei/IarAripaStanga.png",
+          "answer": "Aripa Stanga",
           "probability": 0.6
         },
         {
           "question": "Identifica Componenta X",
-          "image": "Images/Cunoasterea Aeronavei/IarProfundor.png",
-          "answer": "Profundor",
+          "image": "Images/Cunoasterea Aeronavei/IarCabina.png",
+          "answer": "Cabina",
           "probability": 0.6
         },
         {
           "question": "Identifica Componenta X",
-          "image": "Images/Cunoasterea Aeronavei/IarProfundor.png",
-          "answer": "Profundor",
+          "image": "Images/Cunoasterea Aeronavei/IarCoifElice.png",
+          "answer": "Coif Elice",
           "probability": 0.6
         },
         {
           "question": "Identifica Componenta X",
-          "image": "Images/Cunoasterea Aeronavei/IarProfundor.png",
-          "answer": "Profundor",
+          "image": "Images/Cunoasterea Aeronavei/IarCompartimentMotor.png",
+          "answer": "Compartiment Motor",
           "probability": 0.6
         },
         {
           "question": "Identifica Componenta X",
-          "image": "Images/Cunoasterea Aeronavei/IarProfundor.png",
-          "answer": "Profundor",
+          "image": "Images/Cunoasterea Aeronavei/IarEleron2.png",
+          "answer": "Eleron",
           "probability": 0.6
         },
         {
           "question": "Identifica Componenta X",
-          "image": "Images/Cunoasterea Aeronavei/IarProfundor.png",
-          "answer": "Profundor",
+          "image": "Images/Cunoasterea Aeronavei/IarElice.png",
+          "answer": "Elice",
           "probability": 0.6
         },
         {
           "question": "Identifica Componenta X",
-          "image": "Images/Cunoasterea Aeronavei/IarProfundor.png",
-          "answer": "Profundor",
+          "image": "Images/Cunoasterea Aeronavei/IarFlaps2.png",
+          "answer": "Flaps",
           "probability": 0.6
         },
         {
           "question": "Identifica Componenta X",
-          "image": "Images/Cunoasterea Aeronavei/IarProfundor.png",
-          "answer": "Profundor",
+          "image": "Images/Cunoasterea Aeronavei/IarRadiatorUlei.png",
+          "answer": "Radiator Ulei",
           "probability": 0.6
         },
         {
           "question": "Identifica Componenta X",
-          "image": "Images/Cunoasterea Aeronavei/IarProfundor.png",
-          "answer": "Profundor",
+          "image": "Images/Cunoasterea Aeronavei/IarStabOriz.png",
+          "answer": "Stabilizator Orizontal",
           "probability": 0.6
         },
         {
           "question": "Identifica Componenta X",
-          "image": "Images/Cunoasterea Aeronavei/IarProfundor.png",
-          "answer": "Profundor",
+          "image": "Images/Cunoasterea Aeronavei/IarStabVert.png",
+          "answer": "Stabilizator Vertical",
           "probability": 0.6
         },
         {
