@@ -188,13 +188,13 @@ window.onload = function () {
             // Define the handler and attach it
             handleEnterKey = function(event) {
                 if (event.key === "Enter") {
-                    if (input.value.length !== 0) {
-                        document.removeEventListener("keydown", handleEnterKey);
+                    if (questionObj.answer[0].length !== 0) {
+                        document.removeEventListener("keyup", handleEnterKey);
                         checkAnswer(questionObj.answer[0], questionObj.correct_answer); // Uses first option as default
                     }
                 }
             };
-            document.addEventListener("keydown", handleEnterKey);
+            document.addEventListener("keyup", handleEnterKey);
 
         } else {
             const input = document.createElement("input");
@@ -242,6 +242,7 @@ window.onload = function () {
         const nextQuestion = () => {
             document.body.style.backgroundColor = "";
             currentQuestionIndex++;
+            document.removeEventListener("keyup", skipTimeout);
             displayQuestion();
         }
 
@@ -251,13 +252,14 @@ window.onload = function () {
 
         const skipTimeout = (event) => {
             if (event.key === "Enter") {
-                document.removeEventListener("keyup", skipTimeout, {once: true});
+                console.log("Skipping timeout");
+                document.removeEventListener("keyup", skipTimeout);
                 clearTimeout(timeoutId);
                 nextQuestion();
             }
         }
 
-        document.addEventListener("keyup", skipTimeout, { once: true });
+        document.addEventListener("keyup", skipTimeout);
     }
 
 
