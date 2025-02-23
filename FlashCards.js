@@ -207,7 +207,6 @@ window.onload = function () {
             handleInputEnterKey = function(event) {
                 if (event.key === "Enter") {
                     if (input.value.length !== 0) {
-                        console.log(input.value);
                         document.removeEventListener("keyup", handleInputEnterKey);
                         checkAnswer(input.value, questionObj.answer);
                     }
@@ -250,13 +249,13 @@ window.onload = function () {
 
         const skipTimeout = (event) => {
             if (event.key === "Enter") {
-                document.removeEventListener("keyup", skipTimeout);
+                document.removeEventListener("keyup", skipTimeout, {once: true});
                 clearTimeout(timeoutId);
                 nextQuestion();
             }
         }
 
-        document.addEventListener("keyup", skipTimeout);
+        document.addEventListener("keyup", skipTimeout, { once: true });
     }
 
 
