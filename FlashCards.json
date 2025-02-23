@@ -1,53 +1,6 @@
 {
   "question_sets": [
     {
-      "name": "Basic Math PLACEHOLDER",
-      "type": "Multiple choice question",
-      "total_questions": 3,
-      "success_rate": 0.85,
-      "questions": [
-        {
-          "question": "What is 5 + 3?",
-          "answer": [
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11"
-          ],
-          "correct_answer": "8",
-          "probability": 0.5
-        },
-        {
-          "question": "What is 12 / 4?",
-          "answer": [
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7"
-          ],
-          "correct_answer": "3",
-          "probability": 0.7
-        },
-        {
-          "question": "What is 9 * 2?",
-          "answer": [
-            "16",
-            "17",
-            "18",
-            "19",
-            "20",
-            "21"
-          ],
-          "correct_answer": "18",
-          "probability": 0.4
-        }
-      ]
-    },
-    {
       "name": "Cunoasterea Aeronavei",
       "type": "Image with written input",
       "total_questions": 49,

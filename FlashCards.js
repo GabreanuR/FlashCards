@@ -6,6 +6,8 @@ window.onload = function () {
     let correctAnswers = 0;
     let startTime;
 
+    mainMenu();
+
 
     // Load current date & time every second
     function updateDateTime() {
@@ -18,7 +20,7 @@ window.onload = function () {
     setInterval(updateDateTime, 1000);
 
     function fetchQuestionSets() {
-        fetch("FlashCards.json")
+        fetch("./FlashCards.json")
             .then(response => response.json())
             .then(data => {
                 questionSets = data.question_sets;
@@ -186,6 +188,7 @@ window.onload = function () {
             // Define the handler and attach it
             handleEnterKey = function(event) {
                 if (event.key === "Enter") {
+                    document.removeEventListener("keydown", handleEnterKey);
                     checkAnswer(questionObj.answer[0], questionObj.correct_answer); // Uses first option as default
                 }
             };
@@ -203,7 +206,11 @@ window.onload = function () {
             // Define the handler and attach it
             handleInputEnterKey = function(event) {
                 if (event.key === "Enter") {
-                    checkAnswer(input.value, questionObj.answer);
+                    if (input.value.length !== 0) {
+                        console.log(input.value);
+                        document.removeEventListener("keyup", handleInputEnterKey);
+                        checkAnswer(input.value, questionObj.answer);
+                    }
                 }
             };
             document.addEventListener("keyup", handleInputEnterKey);
@@ -220,16 +227,36 @@ window.onload = function () {
         const isCorrect = userAnswer.trim().toLowerCase() === correctAnswer.toLowerCase();
         document.body.style.backgroundColor = isCorrect ? "green" : "red";
 
+        let timeoutInterval = 300;
+
         if (isCorrect) {
             correctAnswers++;
             document.getElementById("counter").textContent = `✅ Score: ${correctAnswers}`;
+        } else {
+            document.getElementsByTagName("input")[0].value = `❌ Correct Answer: ${correctAnswer}`;
+            document.getElementsByTagName("input")[0].readOnly = true;
+            timeoutInterval = 1700;
         }
 
-        setTimeout(() => {
+        const nextQuestion = () => {
             document.body.style.backgroundColor = "";
             currentQuestionIndex++;
             displayQuestion();
-        }, 300);
+        }
+
+        let timeoutId = setTimeout(() => {
+            nextQuestion();
+        }, timeoutInterval);
+
+        const skipTimeout = (event) => {
+            if (event.key === "Enter") {
+                document.removeEventListener("keyup", skipTimeout);
+                clearTimeout(timeoutId);
+                nextQuestion();
+            }
+        }
+
+        document.addEventListener("keyup", skipTimeout);
     }
 
 
