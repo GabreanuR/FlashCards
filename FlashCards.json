@@ -61,32 +61,32 @@
         },
         {
           "question": "Identifica Componenta X",
-          "image": "Images/Cunoasterea Aeronavei/IarProfundor.png",
-          "answer": "Profundor",
+          "image": "Images/Cunoasterea Aeronavei/IarCompensator.png",
+          "answer": "Compensator",
           "probability": 0.6
         },
         {
           "question": "Identifica Componenta X",
-          "image": "Images/Cunoasterea Aeronavei/IarProfundor.png",
-          "answer": "Profundor",
+          "image": "Images/Cunoasterea Aeronavei/IarDirectie.png",
+          "answer": "Directie",
           "probability": 0.6
         },
         {
           "question": "Identifica Componenta X",
-          "image": "Images/Cunoasterea Aeronavei/IarProfundor.png",
-          "answer": "Profundor",
+          "image": "Images/Cunoasterea Aeronavei/IarEleron.png",
+          "answer": "Eleron",
           "probability": 0.6
         },
         {
           "question": "Identifica Componenta X",
-          "image": "Images/Cunoasterea Aeronavei/IarProfundor.png",
-          "answer": "Profundor",
+          "image": "Images/Cunoasterea Aeronavei/IarBechie.png",
+          "answer": "Bechie",
           "probability": 0.6
         },
         {
           "question": "Identifica Componenta X",
-          "image": "Images/Cunoasterea Aeronavei/IarProfundor.png",
-          "answer": "Profundor",
+          "image": "Images/Cunoasterea Aeronavei/IarFlaps.png",
+          "answer": "Flaps",
           "probability": 0.6
         },
         {
