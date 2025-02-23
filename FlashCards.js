@@ -188,8 +188,10 @@ window.onload = function () {
             // Define the handler and attach it
             handleEnterKey = function(event) {
                 if (event.key === "Enter") {
-                    document.removeEventListener("keydown", handleEnterKey);
-                    checkAnswer(questionObj.answer[0], questionObj.correct_answer); // Uses first option as default
+                    if (input.value.length !== 0) {
+                        document.removeEventListener("keydown", handleEnterKey);
+                        checkAnswer(questionObj.answer[0], questionObj.correct_answer); // Uses first option as default
+                    }
                 }
             };
             document.addEventListener("keydown", handleEnterKey);
