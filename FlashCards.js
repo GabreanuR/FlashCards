@@ -97,21 +97,37 @@ window.onload = function () {
         const menu = document.getElementById("menu");
         menu.innerHTML = "<p id='setupOptions'>Choose Question Options</p>";
 
+        // Calculate min & max questions based on selected sets
+        const maxQuestions = selectedSets.reduce((sum, set) => sum + set.questions.length, 0);
+        const minQuestions = 1;
+
+        // Create input field with constraints
         const numberInput = document.createElement("input");
         numberInput.type = "number";
-        numberInput.placeholder = "Number of Questions";
-        menu.appendChild(numberInput);
+        numberInput.min = minQuestions;
+        numberInput.max = maxQuestions;
+        numberInput.value = Math.min(10, maxQuestions); // Default: 10 or max available
+        numberInput.placeholder = `Max: ${maxQuestions}`;
+        numberInput.className = "questionCountInput"; // For better styling
 
+        // Create buttons
         const randomFullBtn = document.createElement("button");
         randomFullBtn.textContent = "Full Random";
         randomFullBtn.onclick = () => startQuiz(numberInput.value, "full");
-        menu.appendChild(randomFullBtn);
 
         const randomWeightedBtn = document.createElement("button");
         randomWeightedBtn.textContent = "Weighted Random";
         randomWeightedBtn.onclick = () => startQuiz(numberInput.value, "weighted");
+
+        // Append elements
+        menu.appendChild(numberInput);
+        menu.appendChild(randomFullBtn);
         menu.appendChild(randomWeightedBtn);
+
+        // Auto-focus on number input
+        numberInput.focus();
     }
+
 
     let timerInterval; // Global variable for the timer
 
