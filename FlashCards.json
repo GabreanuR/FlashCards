@@ -157,44 +157,44 @@
         },
         {
           "question": "Identifica Componenta X",
-          "image": "Images/Cunoasterea Aeronavei/IarProfundor.png",
-          "answer": "Profundor",
+          "image": "Images/Cunoasterea Aeronavei/IarAntenaVHF.png",
+          "answer": "Antena VHF",
           "probability": 0.6
         },
         {
           "question": "Identifica Componenta X",
-          "image": "Images/Cunoasterea Aeronavei/IarProfundor.png",
-          "answer": "Profundor",
+          "image": "Images/Cunoasterea Aeronavei/IarBordAtac.png",
+          "answer": "Bord de Atac",
           "probability": 0.6
         },
         {
           "question": "Identifica Componenta X",
-          "image": "Images/Cunoasterea Aeronavei/IarProfundor.png",
-          "answer": "Profundor",
+          "image": "Images/Cunoasterea Aeronavei/IarBordFuga.png",
+          "answer": "Bord de Fuga",
           "probability": 0.6
         },
         {
           "question": "Identifica Componenta X",
-          "image": "Images/Cunoasterea Aeronavei/IarProfundor.png",
-          "answer": "Profundor",
+          "image": "Images/Cunoasterea Aeronavei/IarInmatriculare.png",
+          "answer": "Inmatriculare",
           "probability": 0.6
         },
         {
           "question": "Identifica Componenta X",
-          "image": "Images/Cunoasterea Aeronavei/IarProfundor.png",
-          "answer": "Profundor",
+          "image": "Images/Cunoasterea Aeronavei/IarLuminaAntiColiziune.png",
+          "answer": "Lumina Anti Coliziune",
           "probability": 0.6
         },
         {
           "question": "Identifica Componenta X",
-          "image": "Images/Cunoasterea Aeronavei/IarProfundor.png",
-          "answer": "Profundor",
+          "image": "Images/Cunoasterea Aeronavei/IarSisEva.png",
+          "answer": "Sistem Evacuare",
           "probability": 0.6
         },
         {
           "question": "Identifica Componenta X",
-          "image": "Images/Cunoasterea Aeronavei/IarProfundor.png",
-          "answer": "Profundor",
+          "image": "Images/Cunoasterea Aeronavei/IarTrenPrin.png",
+          "answer": "Tren Principal",
           "probability": 0.6
         },
         {
