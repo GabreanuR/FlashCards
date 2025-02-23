@@ -50,7 +50,7 @@
     {
       "name": "Cunoasterea Aeronavei",
       "type": "Image with written input",
-      "total_questions": 49,
+      "total_questions": 48,
       "success_rate": 0.72,
       "questions": [
         {
@@ -199,152 +199,146 @@
         },
         {
           "question": "Identifica Componenta X",
-          "image": "Images/Cunoasterea Aeronavei/IarProfundor.png",
+          "image": "Images/Cunoasterea Aeronavei/ZlinAntenaVHF.png",
+          "answer": "Antena VHF",
+          "probability": 0.6
+        },
+        {
+          "question": "Identifica Componenta X",
+          "image": "Images/Cunoasterea Aeronavei/ZlinBusonRez.png",
+          "answer": "Buson Rezervor",
+          "probability": 0.6
+        },
+        {
+          "question": "Identifica Componenta X",
+          "image": "Images/Cunoasterea Aeronavei/ZlinCabina.png",
+          "answer": "Cabina",
+          "probability": 0.6
+        },
+        {
+          "question": "Identifica Componenta X",
+          "image": "Images/Cunoasterea Aeronavei/ZlinCapotaMotor.png",
+          "answer": "Capota Motor",
+          "probability": 0.6
+        },
+        {
+          "question": "Identifica Componenta X",
+          "image": "Images/Cunoasterea Aeronavei/ZlinCoifElice.png",
+          "answer": "Coif Elice",
+          "probability": 0.6
+        },
+        {
+          "question": "Identifica Componenta X",
+          "image": "Images/Cunoasterea Aeronavei/ZlinCompensatorDirectie.png",
+          "answer": "Compensator Directie",
+          "probability": 0.6
+        },
+        {
+          "question": "Identifica Componenta X",
+          "image": "Images/Cunoasterea Aeronavei/ZlinCompensatorProfundor.png",
+          "answer": "Compensator Profundor",
+          "probability": 0.6
+        },
+        {
+          "question": "Identifica Componenta X",
+          "image": "Images/Cunoasterea Aeronavei/ZlinDeclansator.png",
+          "answer": "Declansator",
+          "probability": 0.6
+        },
+        {
+          "question": "Identifica Componenta X",
+          "image": "Images/Cunoasterea Aeronavei/ZlinDeriva.png",
+          "answer": "Deriva",
+          "probability": 0.6
+        },
+        {
+          "question": "Identifica Componenta X",
+          "image": "Images/Cunoasterea Aeronavei/ZlinDirectie.png",
+          "answer": "Directie",
+          "probability": 0.6
+        },
+        {
+          "question": "Identifica Componenta X",
+          "image": "Images/Cunoasterea Aeronavei/ZlinEleron.png",
+          "answer": "Eleron",
+          "probability": 0.6
+        },
+        {
+          "question": "Identifica Componenta X",
+          "image": "Images/Cunoasterea Aeronavei/ZlinElice.png",
+          "answer": "Elice",
+          "probability": 0.6
+        },
+        {
+          "question": "Identifica Componenta X",
+          "image": "Images/Cunoasterea Aeronavei/ZlinFarAterizare.png",
+          "answer": "Far Aterizare",
+          "probability": 0.6
+        },
+        {
+          "question": "Identifica Componenta X",
+          "image": "Images/Cunoasterea Aeronavei/ZlinFlaps.png",
+          "answer": "Flaps",
+          "probability": 0.6
+        },
+        {
+          "question": "Identifica Componenta X",
+          "image": "Images/Cunoasterea Aeronavei/ZlinJambaFrontala.png",
+          "answer": "Jamba Frontala",
+          "probability": 0.6
+        },
+        {
+          "question": "Identifica Componenta X",
+          "image": "Images/Cunoasterea Aeronavei/ZlinJambaTipArcFoaieDinOtel.png",
+          "answer": "Jamba Tip Arc Foaie Din Otel",
+          "probability": 0.6
+        },
+        {
+          "question": "Identifica Componenta X",
+          "image": "Images/Cunoasterea Aeronavei/ZlinLuminaAntiColiziune.png",
+          "answer": "Lumina Anti Coliziune",
+          "probability": 0.6
+        },
+        {
+          "question": "Identifica Componenta X",
+          "image": "Images/Cunoasterea Aeronavei/ZlinLumNavDreapta.png",
+          "answer": "Lumina Navigatie Dreapta",
+          "probability": 0.6
+        },
+        {
+          "question": "Identifica Componenta X",
+          "image": "Images/Cunoasterea Aeronavei/ZlinLumNavStanga.png",
+          "answer": "Lumina Navigatie Stanga",
+          "probability": 0.6
+        },
+        {
+          "question": "Identifica Componenta X",
+          "image": "Images/Cunoasterea Aeronavei/ZlinMasaEchilibrareProfundor.png",
+          "answer": "Masa Echilibrare Profundor",
+          "probability": 0.6
+        },
+        {
+          "question": "Identifica Componenta X",
+          "image": "Images/Cunoasterea Aeronavei/ZlinProfundor.png",
           "answer": "Profundor",
           "probability": 0.6
         },
         {
           "question": "Identifica Componenta X",
-          "image": "Images/Cunoasterea Aeronavei/IarProfundor.png",
-          "answer": "Profundor",
+          "image": "Images/Cunoasterea Aeronavei/ZlinRanforsareDeriva.png",
+          "answer": "Ranforsare Deriva",
           "probability": 0.6
         },
         {
           "question": "Identifica Componenta X",
-          "image": "Images/Cunoasterea Aeronavei/IarProfundor.png",
-          "answer": "Profundor",
+          "image": "Images/Cunoasterea Aeronavei/ZlinStabilizator.png",
+          "answer": "Stabilizator",
           "probability": 0.6
         },
         {
           "question": "Identifica Componenta X",
-          "image": "Images/Cunoasterea Aeronavei/IarProfundor.png",
-          "answer": "Profundor",
-          "probability": 0.6
-        },
-        {
-          "question": "Identifica Componenta X",
-          "image": "Images/Cunoasterea Aeronavei/IarProfundor.png",
-          "answer": "Profundor",
-          "probability": 0.6
-        },
-        {
-          "question": "Identifica Componenta X",
-          "image": "Images/Cunoasterea Aeronavei/IarProfundor.png",
-          "answer": "Profundor",
-          "probability": 0.6
-        },
-        {
-          "question": "Identifica Componenta X",
-          "image": "Images/Cunoasterea Aeronavei/IarProfundor.png",
-          "answer": "Profundor",
-          "probability": 0.6
-        },
-        {
-          "question": "Identifica Componenta X",
-          "image": "Images/Cunoasterea Aeronavei/IarProfundor.png",
-          "answer": "Profundor",
-          "probability": 0.6
-        },
-        {
-          "question": "Identifica Componenta X",
-          "image": "Images/Cunoasterea Aeronavei/IarProfundor.png",
-          "answer": "Profundor",
-          "probability": 0.6
-        },
-        {
-          "question": "Identifica Componenta X",
-          "image": "Images/Cunoasterea Aeronavei/IarProfundor.png",
-          "answer": "Profundor",
-          "probability": 0.6
-        },
-        {
-          "question": "Identifica Componenta X",
-          "image": "Images/Cunoasterea Aeronavei/IarProfundor.png",
-          "answer": "Profundor",
-          "probability": 0.6
-        },
-        {
-          "question": "Identifica Componenta X",
-          "image": "Images/Cunoasterea Aeronavei/IarProfundor.png",
-          "answer": "Profundor",
-          "probability": 0.6
-        },
-        {
-          "question": "Identifica Componenta X",
-          "image": "Images/Cunoasterea Aeronavei/IarProfundor.png",
-          "answer": "Profundor",
-          "probability": 0.6
-        },
-        {
-          "question": "Identifica Componenta X",
-          "image": "Images/Cunoasterea Aeronavei/IarProfundor.png",
-          "answer": "Profundor",
-          "probability": 0.6
-        },
-        {
-          "question": "Identifica Componenta X",
-          "image": "Images/Cunoasterea Aeronavei/IarProfundor.png",
-          "answer": "Profundor",
-          "probability": 0.6
-        },
-        {
-          "question": "Identifica Componenta X",
-          "image": "Images/Cunoasterea Aeronavei/IarProfundor.png",
-          "answer": "Profundor",
-          "probability": 0.6
-        },
-        {
-          "question": "Identifica Componenta X",
-          "image": "Images/Cunoasterea Aeronavei/IarProfundor.png",
-          "answer": "Profundor",
-          "probability": 0.6
-        },
-        {
-          "question": "Identifica Componenta X",
-          "image": "Images/Cunoasterea Aeronavei/IarProfundor.png",
-          "answer": "Profundor",
-          "probability": 0.6
-        },
-        {
-          "question": "Identifica Componenta X",
-          "image": "Images/Cunoasterea Aeronavei/IarProfundor.png",
-          "answer": "Profundor",
-          "probability": 0.6
-        },
-        {
-          "question": "Identifica Componenta X",
-          "image": "Images/Cunoasterea Aeronavei/IarProfundor.png",
-          "answer": "Profundor",
-          "probability": 0.6
-        },
-        {
-          "question": "Identifica Componenta X",
-          "image": "Images/Cunoasterea Aeronavei/IarProfundor.png",
-          "answer": "Profundor",
-          "probability": 0.6
-        },
-        {
-          "question": "Identifica Componenta X",
-          "image": "Images/Cunoasterea Aeronavei/IarProfundor.png",
-          "answer": "Profundor",
-          "probability": 0.6
-        },
-        {
-          "question": "Identifica Componenta X",
-          "image": "Images/Cunoasterea Aeronavei/IarProfundor.png",
-          "answer": "Profundor",
-          "probability": 0.6
-        },
-        {
-          "question": "Identifica Componenta X",
-          "image": "Images/Cunoasterea Aeronavei/IarProfundor.png",
-          "answer": "Profundor",
-          "probability": 0.6
-        },
-        {
-          "question": "Identifica Componenta X",
-          "image": "Images/Cunoasterea Aeronavei/IarProfundor.png",
-          "answer": "Profundor",
+          "image": "Images/Cunoasterea Aeronavei/ZlinTrenAterizarePrincipal.png",
+          "answer": "Tren Aterizare Principal",
           "probability": 0.6
         }
       ]
